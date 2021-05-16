@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Pridi&family=Zen+Dots&display=swap");
+
+* {
+    /* font-family: 'Lilita One', cursive; */
+    font-family: "Pridi", serif;
+    /* font-family: 'Zen Dots', cursive; */
+}
+
+body {
+    background-image: url(../img/pexels-pixabay-46798.jpg);
+}
+
+.login-clean {
+    background-image: url(../img/pexels-pixabay-46798.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+#mitesh {
+    position: relative;
+    /* left:-350px; */
+    top: -10px;
+    max-width: 500px;
+}
+.btn btn-primary btn-block {
+    transition: 2s;
+}
+
+#mitesh1 {
+    background-image: linear-gradient(to right, #003973 0%, #e5e5be 51%, #003973 100%);
+}
+#mitesh1 {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+#mitesh1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
